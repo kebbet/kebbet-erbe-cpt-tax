@@ -1,0 +1,500 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Kebbet plugins - Custom Post Type and Taxonomies for "
+"Erik Betshammar.\n"
+"POT-Creation-Date: 2023-05-09 09:41+0200\n"
+"PO-Revision-Date: 2023-05-09 09:41+0200\n"
+"Last-Translator: Erik Betshammar <info@verkan.se>\n"
+"Language-Team: Erik Betshammar <info@verkan.se>\n"
+"Language: sv_SE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.2.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: kebbet-erbe-cpt-tax.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+
+#: cpt/inc/admin-columns.php:39
+msgid "Last modified"
+msgstr "Senast ändrat"
+
+#: cpt/inc/admin-columns.php:40
+msgid "Featured image"
+msgstr "Utvald bild"
+
+#: cpt/inc/admin-columns.php:69
+msgid "No image is set."
+msgstr "Ingen bild har angetts."
+
+#: cpt/inc/admin-messages.php:29 cpt/inc/admin-messages.php:32
+msgid "Post updated."
+msgstr "Inlägget uppdaterades."
+
+#: cpt/inc/admin-messages.php:30
+msgid "Custom field updated."
+msgstr "Anpassat fält uppdaterat."
+
+#: cpt/inc/admin-messages.php:31
+msgid "Custom field deleted."
+msgstr "Anpassat fält borttaget."
+
+#. translators: %s: date and time of the revision
+#: cpt/inc/admin-messages.php:34
+#, php-format
+msgid "Post restored to revision from %s"
+msgstr "Inlägget har återställts till version från %s"
+
+#: cpt/inc/admin-messages.php:35
+msgid "Post published."
+msgstr "Inlägget publicerades."
+
+#: cpt/inc/admin-messages.php:36
+msgid "Post saved."
+msgstr "Inlägget sparat."
+
+#: cpt/inc/admin-messages.php:37
+msgid "Post submitted."
+msgstr "Inlägget inskickat."
+
+#. translators: %1$s: date and time of the scheduled post
+#: cpt/inc/admin-messages.php:40
+#, php-format
+msgid "Post scheduled for: <strong>%1$s</strong>."
+msgstr "Inlägget är schemalagt till: <strong>%1$s</strong>."
+
+#: cpt/inc/admin-messages.php:41
+msgid "M j, Y @ G:i"
+msgstr "Y-m-d, H:i"
+
+#: cpt/inc/admin-messages.php:43
+msgid "Post draft updated."
+msgstr "Inläggsutkastet uppdaterades."
+
+#: cpt/inc/admin-messages.php:51
+msgid "View Post"
+msgstr "Visa inlägg"
+
+#: cpt/inc/admin-messages.php:57
+msgid "Preview Post"
+msgstr "Förhandsgranska inlägg"
+
+#. translators: %s: singular of posts, %$s: plural of posts.
+#: cpt/inc/admin-messages.php:83
+#, php-format
+msgid "%s post updated."
+msgid_plural "%s posts updated."
+msgstr[0] "%s inlägg har uppdaterats."
+msgstr[1] "%s inlägg har uppdaterats."
+
+#. translators: %s: singular of posts, %$s: plural of posts.
+#: cpt/inc/admin-messages.php:85
+#, php-format
+msgid "%s post not updated, somebody is editing it."
+msgid_plural "%s posts not updated, somebody is editing them."
+msgstr[0] "%s inlägg uppdaterades inte, någon redigerar det."
+msgstr[1] "%s inlägg uppdaterades inte, någon redigerar dem."
+
+#. translators: %s: singular of posts, %$s: plural of posts.
+#: cpt/inc/admin-messages.php:87
+#, php-format
+msgid "%s post permanently deleted."
+msgid_plural "%s posts permanently deleted."
+msgstr[0] "%s inlägg togs bort permanent."
+msgstr[1] "%s inlägg togs bort permanent."
+
+#. translators: %s: singular of posts, %$s: plural of posts.
+#: cpt/inc/admin-messages.php:89
+#, php-format
+msgid "%s post moved to the Trash."
+msgid_plural "%s posts moved to the Trash."
+msgstr[0] "%s inlägg flyttades till papperskorgen."
+msgstr[1] "%s inlägg flyttades till papperskorgen."
+
+#. translators: %s: singular of posts, %$s: plural of posts.
+#: cpt/inc/admin-messages.php:91
+#, php-format
+msgid "%s post restored from the Trash."
+msgid_plural "%s posts restored from the Trash."
+msgstr[0] "%s inlägg återställdes från papperskorgen."
+msgstr[1] "%s inlägg återställdes från papperskorgen."
+
+#. translators: %s: counter of how many posts.
+#: cpt/inc/at-a-glance.php:34
+#, php-format
+msgid "%s work post"
+msgid_plural "%s work posts"
+msgstr[0] "%s verks-inlägg"
+msgstr[1] "%s verks-inlägg"
+
+#: cpt/post-type-work.php:23
+msgctxt "Post Type General Name"
+msgid "Works"
+msgstr "Verk"
+
+#: cpt/post-type-work.php:24
+msgctxt "Post Type Singular Name"
+msgid "Work"
+msgstr "Verk"
+
+#: cpt/post-type-work.php:25
+msgid "Works"
+msgstr "Verk"
+
+#: cpt/post-type-work.php:26
+msgid "Work-post"
+msgstr "Verksinlägg"
+
+#: cpt/post-type-work.php:27
+msgid "Parent post:"
+msgstr "Överordnat inlägg:"
+
+#: cpt/post-type-work.php:28
+msgid "All posts"
+msgstr "Alla inlägg"
+
+#: cpt/post-type-work.php:29
+msgid "Add new"
+msgstr "Lägg till nytt"
+
+#: cpt/post-type-work.php:30
+msgid "Add new post"
+msgstr "Lägg till nytt inlägg"
+
+#: cpt/post-type-work.php:31
+msgid "New post"
+msgstr "Nytt inlägg"
+
+#: cpt/post-type-work.php:32
+msgid "Edit post"
+msgstr "Redigera inlägg"
+
+#: cpt/post-type-work.php:33
+msgid "Update post"
+msgstr "Uppdatera inlägg"
+
+#: cpt/post-type-work.php:34
+msgid "View post"
+msgstr "Visa inlägg"
+
+#: cpt/post-type-work.php:35
+msgid "View posts"
+msgstr "Visa inlägg"
+
+#: cpt/post-type-work.php:36
+msgid "Search posts"
+msgstr "Sök inlägg"
+
+#: cpt/post-type-work.php:37
+msgid "Not found"
+msgstr "Inget hittades"
+
+#: cpt/post-type-work.php:38
+msgid "No posts found in Trash"
+msgstr "Inga inlägg hittades i papperskorgen"
+
+#: cpt/post-type-work.php:39
+msgid "Artwork image"
+msgstr "Bild på verk"
+
+#: cpt/post-type-work.php:40
+msgid "Set artwork image"
+msgstr "Ange som bild på verk"
+
+#: cpt/post-type-work.php:41
+msgid "Remove artwork image"
+msgstr "Ta bort bild på verk"
+
+#: cpt/post-type-work.php:42
+msgid "Use as artwork image"
+msgstr "Använd som bild på verk"
+
+#: cpt/post-type-work.php:43
+msgid "Insert into item"
+msgstr "Infoga till inlägg"
+
+#: cpt/post-type-work.php:44
+msgid "Uploaded to this post"
+msgstr "Uppladdad till detta inlägg"
+
+#: cpt/post-type-work.php:45
+msgid "Items list"
+msgstr "Objektlista"
+
+#: cpt/post-type-work.php:46
+msgid "Items list navigation"
+msgstr "Navigering för objektlista"
+
+#: cpt/post-type-work.php:47
+msgid "Filter items list"
+msgstr "Filtrera objektlista"
+
+#: cpt/post-type-work.php:48
+msgid "Work-posts archive"
+msgstr "Arkiv för verksinlägg"
+
+#: cpt/post-type-work.php:49
+msgid "Work-post attributes"
+msgstr "Attribut för verksinlägg"
+
+#: cpt/post-type-work.php:50
+msgid "Post published"
+msgstr "Inlägget publicerades"
+
+#: cpt/post-type-work.php:51
+msgid "Post published privately"
+msgstr "Inlägget publicerades privat"
+
+#: cpt/post-type-work.php:52
+msgid "Post reverted to Draft"
+msgstr "Inlägget återställdes till utkast"
+
+#: cpt/post-type-work.php:53
+msgid "Post scheduled"
+msgstr "Inlägget schemalagt"
+
+#: cpt/post-type-work.php:54
+msgid "Post updated"
+msgstr "Inlägget uppdaterades"
+
+#: cpt/post-type-work.php:56
+msgid "Filter posts by date"
+msgstr "Filtrera inlägg efter datum"
+
+#: cpt/post-type-work.php:57
+msgid "Work post link"
+msgstr "Länk till verksinlägg"
+
+#: cpt/post-type-work.php:58
+msgid "A link to a work post"
+msgstr "En länk till ett verksinlägg"
+
+#: cpt/post-type-work.php:79
+msgid "Work post type"
+msgstr "Inläggstyp verksinlägg"
+
+#: cpt/post-type-work.php:80
+msgid "Custom post type for artistic work"
+msgstr "Anpassad inläggstyp för konstnärligt arbete"
+
+#: tax-status/inc/register.php:22
+msgctxt "taxonomy general name"
+msgid "Art status"
+msgstr "Konstens status"
+
+#: tax-status/inc/register.php:23
+msgid "Art status"
+msgstr "Konstens status"
+
+#: tax-status/inc/register.php:24
+msgctxt "taxonomy singular name"
+msgid "Art status"
+msgstr "Konstens status"
+
+#: tax-status/inc/register.php:25
+msgid "All art status tags"
+msgstr "Alla statusektiketter för konst"
+
+#: tax-status/inc/register.php:26 tax-type/inc/register.php:26
+#: tax-year/inc/register.php:26
+msgid "Edit tag"
+msgstr "Redigera etikett"
+
+#: tax-status/inc/register.php:27 tax-type/inc/register.php:27
+#: tax-year/inc/register.php:27
+msgid "View tag"
+msgstr "Visa etikett"
+
+#: tax-status/inc/register.php:28 tax-type/inc/register.php:28
+#: tax-year/inc/register.php:28
+msgid "Update tag"
+msgstr "Uppdatera etikett"
+
+#: tax-status/inc/register.php:29 tax-type/inc/register.php:29
+#: tax-year/inc/register.php:29
+msgid "Add new tag"
+msgstr "Lägg till en ny etikett"
+
+#: tax-status/inc/register.php:30 tax-type/inc/register.php:30
+#: tax-year/inc/register.php:30
+msgid "New tag name"
+msgstr "Nytt etikettnamn"
+
+#: tax-status/inc/register.php:31
+msgid "Separate art status tags with commas"
+msgstr "Separata statusetiketter med kommatecken"
+
+#: tax-status/inc/register.php:32 tax-type/inc/register.php:32
+#: tax-year/inc/register.php:32
+msgid "Search tags"
+msgstr "Sök etiketter"
+
+#: tax-status/inc/register.php:33 tax-type/inc/register.php:33
+#: tax-year/inc/register.php:33
+msgid "Add or remove tags"
+msgstr "Lägg till eller ta bort etiketter"
+
+#: tax-status/inc/register.php:34 tax-type/inc/register.php:34
+#: tax-year/inc/register.php:34
+msgid "Choose from the most used tags"
+msgstr "Välj bland de vanligaste etiketterna"
+
+#: tax-status/inc/register.php:35 tax-type/inc/register.php:35
+#: tax-year/inc/register.php:35
+msgid "No tags found."
+msgstr "Inga etiketter hittades."
+
+#: tax-status/inc/register.php:36 tax-type/inc/register.php:36
+#: tax-year/inc/register.php:36
+msgid "Popular tags"
+msgstr "Populära etiketter"
+
+#: tax-status/inc/register.php:37 tax-type/inc/register.php:37
+#: tax-year/inc/register.php:37
+msgid "Parent tag"
+msgstr "Överordnad etikett"
+
+#: tax-status/inc/register.php:38 tax-type/inc/register.php:38
+#: tax-year/inc/register.php:38
+msgid "Parent tag:"
+msgstr "Överordnad etikett:"
+
+#: tax-status/inc/register.php:39 tax-type/inc/register.php:39
+#: tax-year/inc/register.php:39
+msgid "&larr; Back to tags"
+msgstr "← Tillbaka till etiketter"
+
+#: tax-status/inc/register.php:40 tax-type/inc/register.php:40
+#: tax-year/inc/register.php:40
+msgid "The name is how it appears in the user interface."
+msgstr "Namnet är hur det visas i användargränssnittet."
+
+#: tax-status/inc/register.php:41 tax-type/inc/register.php:41
+#: tax-year/inc/register.php:41
+msgid ""
+"The &#8220;slug&#8221; is a sanitized version of the name. It is usually all "
+"lowercase and contains only letters, numbers, and hyphens. Do not change if "
+"not needed."
+msgstr ""
+"”Slug” är en säkerhetsfiltrerad version av namnet. Det är vanligtvis endast "
+"gemener och innehåller bara bokstäver, siffror och bindestreck. Ändra inte "
+"om det inte behövs."
+
+#: tax-status/inc/register.php:42 tax-type/inc/register.php:42
+#: tax-year/inc/register.php:42
+msgid "The description is not used."
+msgstr "Beskrivningen används inte."
+
+#: tax-status/inc/register.php:64 tax-type/inc/register.php:64
+#: tax-year/inc/register.php:64
+msgid "Metadata tag for sorting and grouping posts."
+msgstr "Metadatatagg för sortering och gruppering av inlägg."
+
+#: tax-status/inc/sorting.php:27 tax-status/inc/sorting.php:70
+#: tax-type/inc/sorting.php:27 tax-type/inc/sorting.php:70
+#: tax-year/inc/sorting.php:27 tax-year/inc/sorting.php:70
+msgid "Numeric sorting value"
+msgstr "Numeriskt sorteringsvärde"
+
+#: tax-status/inc/sorting.php:29 tax-type/inc/sorting.php:29
+#: tax-year/inc/sorting.php:29
+msgid ""
+"Add a sorting number to the tags. On the front page, the tags are sorted "
+"from lowest number to highest."
+msgstr ""
+"Lägg till ett sorteringsnummer till etiketterna. På förstasidan sorteras "
+"etiketterna från lägsta värde till högsta."
+
+#: tax-status/inc/sorting.php:73 tax-type/inc/sorting.php:73
+#: tax-year/inc/sorting.php:73
+msgid ""
+"Add a sorting number to the tag. On the front page, the tags are sorted from "
+"lowest number to highest."
+msgstr ""
+"Lägg till ett sorteringsnummer till etiketten. På förstasidan sorteras "
+"etiketterna från lägsta värde till högsta."
+
+#: tax-status/inc/sorting.php:124 tax-type/inc/sorting.php:124
+#: tax-year/inc/sorting.php:124
+msgid "Sorting value"
+msgstr "Sorteringsvärde"
+
+#: tax-type/inc/acf-fields.php:34
+msgid "Plural label"
+msgstr "Etikett för plural"
+
+#: tax-type/inc/acf-fields.php:38
+msgid "Plural version of label"
+msgstr "Pluralversion av etikett"
+
+#: tax-type/inc/register.php:22
+msgctxt "taxonomy general name"
+msgid "Art type"
+msgstr "Konsttyp"
+
+#: tax-type/inc/register.php:23
+msgid "Art type"
+msgstr "Konsttyp"
+
+#: tax-type/inc/register.php:24
+msgctxt "taxonomy singular name"
+msgid "Art type"
+msgstr "Konsttyp"
+
+#: tax-type/inc/register.php:25
+msgid "All art type tags"
+msgstr "Alla konsttyps-etiketter"
+
+#: tax-type/inc/register.php:31
+msgid "Separate art type tags with commas"
+msgstr "Separata konsttyps-etiketter med kommatecken"
+
+#: tax-year/inc/register.php:22
+msgctxt "taxonomy general name"
+msgid "Art year"
+msgstr "År"
+
+#: tax-year/inc/register.php:23
+msgid "Art year"
+msgstr "År"
+
+#: tax-year/inc/register.php:24
+msgctxt "taxonomy singular name"
+msgid "Art year"
+msgstr "År"
+
+#: tax-year/inc/register.php:25
+msgid "All art year tags"
+msgstr "Alla års-etiketter"
+
+#: tax-year/inc/register.php:31
+msgid "Separate art year tags with commas"
+msgstr "Separera års-etiketter med kommatecken"
+
+#. Plugin Name of the plugin/theme
+msgid "Kebbet plugins - Custom Post Type and Taxonomies for Erik Betshammar."
+msgstr ""
+"Kebbet plugins – Anpassad inläggstyp och taxonomier för Erik Betshammar."
+
+#. Plugin URI of the plugin/theme
+msgid "https://github.com/kebbet/kebbet-erbe-cpt-tax"
+msgstr "https://github.com/kebbet/kebbet-erbe-cpt-tax"
+
+#. Description of the plugin/theme
+msgid "Registers a Custom Post Type and some taxonomies."
+msgstr "Registrerar en anpassad inläggstyp och några taxonomier."
+
+#. Author of the plugin/theme
+msgid "Erik Betshammar"
+msgstr "Erik Betshammar"
+
+#. Author URI of the plugin/theme
+msgid "https://verkan.se"
+msgstr "https://verkan.se"
