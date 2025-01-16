@@ -34,6 +34,10 @@ function allowed_block_types( $allowed_blocks, $editor_context ) {
 		'core/more',
 	);
 
+	if ( empty( $editor_context->post ) ) {
+		return $allowed_blocks;
+	}
+
 	if ( POSTTYPE !== $editor_context->post->post_type ) {
 		return $allowed_blocks;
 	}
